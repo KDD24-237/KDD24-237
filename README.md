@@ -1,16 +1,15 @@
-### Hi there 👋
+# AGFC_Net
 
-<!--
-**WWW24-1669/WWW24-1669** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Dataset
+Due to file size limitations, we provide one dataset (DBLP) as an example to test the code. The complete datasets and pre-trained model will be released after the review.
 
-Here are some ideas to get you started:
+## Environment
++ Python[3.9.12]
++ Pytorch[1.12.0+cu102]
++ GPU[NVIDIA Tesla V100s]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## To run code
++ Step 1: choose the data, i.e., [data_name]=acm/cite/dblp/reut/usps/amap
++ Step 2: python AGFC_Net.py --name [data_name]
+* For examle, if you would like to run AGFC_Net on the DBLP dataset, you need to
+* run the command "python AGFC_Net.py --name=dblp"
